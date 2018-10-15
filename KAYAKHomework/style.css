@@ -1,0 +1,18 @@
+.label_checkbox{
+    border: 1px #D9E1E8 solid;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.label_checkbox input[type="checkbox"]{
+    display: none;
+}
+
+.label_checkbox:hover, .label_checkbox.label_active{
+    background-color: #1E93F5;
+    color: #fff;
+}

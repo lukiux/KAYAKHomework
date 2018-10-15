@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="multiselect.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="multiselect.js"></script>
+    <script src="custom.js"></script>
+    <title>7 Filter</title>
+</head>
+
+<body>
+        <div class="row">
+            <div class="container">
+                
+                    <form class="form">
+    
+                        <div class="inputGroup">
+                            <label class="label_checkbox"><input name="all_select" type="checkbox" value="all" data-name="ALL"/> <strong>ALL</strong></label>
+                            <label class="label_checkbox"><input name="vehicle_type" type="checkbox" value="$230+" data-name="Small"/> <strong>Small</strong> $230+</label>
+                            <label class="label_checkbox"><input name="vehicle_type" type="checkbox" value="$235+" data-name="Meduim"/> <strong>Meduim</strong> $235+</label>
+                            <label class="label_checkbox"><input name="vehicle_type" type="checkbox" value="$400+" data-name="Large"/> <strong>Large</strong> $400+</label>
+                            <label class="label_checkbox"><input name="vehicle_type" type="checkbox" value="$241+" data-name="SUV"/> <strong>SUV</strong> $241+</label>
+                            <label class="label_checkbox"><input name="vehicle_type" type="checkbox" value="$255+" data-name="VAN"/> <strong>VAN</strong> $255+</label>
+                            <select id="moreoptions" multiple="multiple" name="more_options" data-placeholder="More">
+                                <option value="$594">Pickup Truck $594</option>
+                                <option value="$626">Luxury $626</option>
+                                <option value="$1248">Commercial $1248</option>
+                                <option value="$1607">Convertible $1607</option>
+                            </select>
+                        </div>
+    
+                    </form>
+            </div>
+        </div>        
+    </body>
+    </html>
